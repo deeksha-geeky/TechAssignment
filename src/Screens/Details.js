@@ -25,7 +25,7 @@ const Details = ({ postId }) => {
 
   return (
     <View style={{ padding: 20 }}>
-      <Text>Body: {postDetails?.body}</Text>
+      <Text>{postDetails?.body}</Text>
     </View>
   );
 };
